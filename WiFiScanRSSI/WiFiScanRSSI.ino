@@ -36,7 +36,7 @@ void loop() {
   } else {    
     Serial.println(" networks found");
     for (int i = 0; i < n; ++i) {
-      if(WiFi.SSID(i) == "KMUTT-Secure") {
+      if(WiFi.SSID(i) == "ssid_name") { // change
         Serial.print(WiFi.SSID(i));
         Serial.print(": ");
         Serial.print(WiFi.RSSI(i));

@@ -5,7 +5,7 @@ extern "C" {
 #include "wpa2_enterprise.h"
 }
 
-static const char* ssid = "KMUTT-Secure";
+static const char* ssid = "ssidname";
 static const char* username = "myusername";
 static const char* password = "mypassword";
 

@@ -7,8 +7,8 @@
 //const char* password = "Password";
 
 
-const char* ssid = "Jaturat";
-const char* password = "0616653987";
+const char* ssid = "username";
+const char* password = "password";
 
 //Create WiFi Client and PubSub Client Object
 WiFiClient wifiClient;
@@ -19,8 +19,8 @@ WiFiClient wifiClient;
 DHT dht(DHTPIN, DHTTYPE);
 
 //Declare ThingSpeak section
-unsigned long myChannelNumber = 901139; //change
-const char* myWriteAPIKey = "M1Q2JG4FICO9D1K5"; //change
+unsigned long myChannelNumber = channel_number; //change
+const char* myWriteAPIKey = "write_apikey"; //change
 String myStatus = "";
 
 //Define loop variables
